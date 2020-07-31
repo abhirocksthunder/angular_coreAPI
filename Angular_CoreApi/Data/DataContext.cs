@@ -10,5 +10,6 @@ namespace Angular_CoreApi.Data
         }
 
         public DbSet<Value> Values { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }
