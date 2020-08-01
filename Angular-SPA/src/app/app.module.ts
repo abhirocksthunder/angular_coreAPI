@@ -12,6 +12,9 @@ import { NavComponent } from './nav/nav.component';
 import { ErrorInterceptorProvider } from './_services/error.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { MembersListComponent } from './members-list/members-list.component';
+import { ListComponent } from './list/list.component';
+import { MessagesComponent } from './messages/messages.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
     HomeComponent,
     RegisterComponent,
     NavComponent,
+    MembersListComponent,
+    ListComponent,
+    MessagesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule, BrowserAnimationsModule, BsDropdownModule.forRoot()],
   providers: [ErrorInterceptorProvider],
